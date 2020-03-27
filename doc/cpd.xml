@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
 <duplication lines="32" tokens="112">
-<file line="43" path="D:\Programacion\eclipse-java-photon-workspace\prolobjectlink-jpt-model\src\main\java\org\prolobjectlink\domain\model\link\AddressPerson.java"/>
-<file line="43" path="D:\Programacion\eclipse-java-photon-workspace\prolobjectlink-jpt-model\src\main\java\org\prolobjectlink\domain\model\link\PersonAddress.java"/>
+<file line="43" path="C:\Users\Jose Zalacain\Documents\eclipse-java-photon-workspace\prolobjectlink-jpt-model\src\main\java\org\prolobjectlink\domain\model\link\AddressPerson.java"/>
+<file line="43" path="C:\Users\Jose Zalacain\Documents\eclipse-java-photon-workspace\prolobjectlink-jpt-model\src\main\java\org\prolobjectlink\domain\model\link\PersonAddress.java"/>
 <codefragment>
 <![CDATA[
 	}
