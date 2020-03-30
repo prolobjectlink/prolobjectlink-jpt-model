@@ -1,0 +1,7 @@
+org.prolobjectlink.domain.classes
+org.prolobjectlink.domain.geometry
+org.prolobjectlink.domain.geometry.view
+org.prolobjectlink.domain.model
+org.prolobjectlink.domain.model.link
+org.prolobjectlink.domain.model.view
+org.prolobjectlink.domain.predicate
