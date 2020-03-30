@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2020-03-29T15:55:58.082">
+<pmd version="4.2.5" timestamp="2020-03-30T01:48:10.258">
 <file name="C:\Users\Jose Zalacain\Documents\eclipse-java-photon-workspace\prolobjectlink-jpt-model\src\main\java\org\prolobjectlink\domain\classes\NonFieldClass.java">
 <violation beginline="38" endline="38" begincolumn="24" endcolumn="41" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.prolobjectlink.domain.classes" class="NonFieldClass" method="equals" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
 Ensure you override both equals() and hashCode()
