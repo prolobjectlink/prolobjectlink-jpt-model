@@ -32,8 +32,9 @@
  */
 package org.prolobjectlink.domain.predicate;
 
-import org.prolobjectlink.db.Predicate;
 import org.prolobjectlink.domain.geometry.Point;
+
+import io.github.prolobjectlink.db.Predicate;
 
 public class PointBasedPredicate implements Predicate<Point> {
 

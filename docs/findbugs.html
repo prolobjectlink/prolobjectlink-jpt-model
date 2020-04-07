@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>prolobjectlink-jpt-model &#x2013; PMD Results</title>
+    <title>prolobjectlink-jpt-model &#x2013; FindBugs Bug Detector Report</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -56,14 +56,14 @@
                           <a href="xref/index.html" title="Source Xref">Source Xref</a>
             </li>
                       <li class="none">
-                          <a href="findbugs.html" title="FindBugs">FindBugs</a>
-            </li>
+            <strong>FindBugs</strong>
+          </li>
                       <li class="none">
                           <a href="jdepend-report.html" title="JDepend">JDepend</a>
             </li>
                       <li class="none">
-            <strong>PMD Report</strong>
-          </li>
+                          <a href="pmd.html" title="PMD Report">PMD Report</a>
+            </li>
                       <li class="none">
                           <a href="cpd.html" title="CPD Report">CPD Report</a>
             </li>
@@ -91,55 +91,96 @@
     <div id="bodyColumn">
       <div id="contentBox">
         <div class="section">
-<h2><a name="PMD_Results"></a>PMD Results</h2>
-<p>The following document contains the results of <a class="externalLink" href="http://pmd.sourceforge.net/">PMD</a> 4.2.5.</p></div>
+<h2><a name="FindBugs_Bug_Detector_Report"></a>FindBugs Bug Detector Report</h2>
+<p>The following document contains the results of <a class="externalLink" href="http://findbugs.sourceforge.net">FindBugs</a></p>
+<p>FindBugs Version is <i>3.0.1</i></p>
+<p>Threshold is <i>medium</i></p>
+<p>Effort is <i>min</i></p></div>
+<div class="section">
+<h2><a name="Summary"></a>Summary</h2>
+<table border="0" class="bodyTable">
+<tr class="a">
+<th>Classes</th>
+<th>Bugs</th>
+<th>Errors</th>
+<th>Missing Classes</th></tr>
+<tr class="b">
+<td>24</td>
+<td>7</td>
+<td>0</td>
+<td>0</td></tr></table></div>
 <div class="section">
 <h2><a name="Files"></a>Files</h2>
-<div class="section">
-<h3><a name="orgprolobjectlinkdomainclassesNonFieldClass.java"></a>org/prolobjectlink/domain/classes/NonFieldClass.java</h3>
 <table border="0" class="bodyTable">
 <tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
+<th>Class</th>
+<th>Bugs</th></tr>
 <tr class="b">
-<td>Ensure you override both equals() and hashCode()</td>
-<td><a href="./xref/org/prolobjectlink/domain/classes/NonFieldClass.html#38">38</a></td></tr></table></div>
-<div class="section">
-<h3><a name="orgprolobjectlinkdomainclassesStaticFieldClass.java"></a>org/prolobjectlink/domain/classes/StaticFieldClass.java</h3>
-<table border="0" class="bodyTable">
+<td><a href="#org.prolobjectlink.domain.classes.TransientFieldClass">org.prolobjectlink.domain.classes.TransientFieldClass</a></td>
+<td>1</td></tr>
 <tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Ensure you override both equals() and hashCode()</td>
-<td><a href="./xref/org/prolobjectlink/domain/classes/StaticFieldClass.html#40">40</a></td></tr></table></div>
+<td><a href="#org.prolobjectlink.domain.model.Person">org.prolobjectlink.domain.model.Person</a></td>
+<td>6</td></tr></table></div><a name="org.prolobjectlink.domain.classes.TransientFieldClass"></a>
 <div class="section">
-<h3><a name="orgprolobjectlinkdomainclassesStaticFinalFieldClass.java"></a>org/prolobjectlink/domain/classes/StaticFinalFieldClass.java</h3>
+<h3><a name="org.prolobjectlink.domain.classes.TransientFieldClass"></a>org.prolobjectlink.domain.classes.TransientFieldClass</h3>
 <table border="0" class="bodyTable">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
 <tr class="b">
-<td>Ensure you override both equals() and hashCode()</td>
-<td><a href="./xref/org/prolobjectlink/domain/classes/StaticFinalFieldClass.html#40">40</a></td></tr></table></div>
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="a">
+<td>org.prolobjectlink.domain.classes.TransientFieldClass is Serializable; consider declaring a serialVersionUID</td>
+<td>BAD_PRACTICE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#SE_NO_SERIALVERSIONID">SE_NO_SERIALVERSIONID</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/classes/TransientFieldClass.html#L37">37-60</a></td>
+<td>Medium</td></tr></table></div><a name="org.prolobjectlink.domain.model.Person"></a>
 <div class="section">
-<h3><a name="orgprolobjectlinkdomainmodelDepartment.java"></a>org/prolobjectlink/domain/model/Department.java</h3>
+<h3><a name="org.prolobjectlink.domain.model.Person"></a>org.prolobjectlink.domain.model.Person</h3>
 <table border="0" class="bodyTable">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
 <tr class="b">
-<td>Avoid unused private fields such as 'employeesByCubicle'.</td>
-<td><a href="./xref/org/prolobjectlink/domain/model/Department.html#54">54</a></td></tr></table></div>
-<div class="section">
-<h3><a name="orgprolobjectlinkdomainmodelPerson.java"></a>org/prolobjectlink/domain/model/Person.java</h3>
-<table border="0" class="bodyTable">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
 <tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
+<td>org.prolobjectlink.domain.model.Person.getBirthDate() may expose internal representation by returning Person.birthDate</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#L180">180</a></td>
+<td>Medium</td></tr>
 <tr class="b">
-<td>Avoid unused private fields such as 'address'.</td>
-<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#67">67</a></td></tr></table></div></div>
+<td>org.prolobjectlink.domain.model.Person.getJoinDate() may expose internal representation by returning Person.joinDate</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#L188">188</a></td>
+<td>Medium</td></tr>
+<tr class="a">
+<td>org.prolobjectlink.domain.model.Person.getLastLoginDate() may expose internal representation by returning Person.lastLoginDate</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#L196">196</a></td>
+<td>Medium</td></tr>
+<tr class="b">
+<td>org.prolobjectlink.domain.model.Person.setBirthDate(Date) may expose internal representation by storing an externally mutable object into Person.birthDate</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#L184">184</a></td>
+<td>Medium</td></tr>
+<tr class="a">
+<td>org.prolobjectlink.domain.model.Person.setJoinDate(Date) may expose internal representation by storing an externally mutable object into Person.joinDate</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#L192">192</a></td>
+<td>Medium</td></tr>
+<tr class="b">
+<td>org.prolobjectlink.domain.model.Person.setLastLoginDate(Date) may expose internal representation by storing an externally mutable object into Person.lastLoginDate</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/org/prolobjectlink/domain/model/Person.html#L200">200</a></td>
+<td>Medium</td></tr></table></div>
       </div>
     </div>
     <div class="clear">
