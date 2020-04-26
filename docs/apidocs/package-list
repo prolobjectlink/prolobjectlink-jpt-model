@@ -1,7 +1,7 @@
-org.prolobjectlink.domain.classes
-org.prolobjectlink.domain.geometry
-org.prolobjectlink.domain.geometry.view
-org.prolobjectlink.domain.model
-org.prolobjectlink.domain.model.link
-org.prolobjectlink.domain.model.view
-org.prolobjectlink.domain.predicate
+io.github.prolobjectlink.domain.classes
+io.github.prolobjectlink.domain.geometry
+io.github.prolobjectlink.domain.geometry.view
+io.github.prolobjectlink.domain.model
+io.github.prolobjectlink.domain.model.link
+io.github.prolobjectlink.domain.model.view
+io.github.prolobjectlink.domain.predicate
